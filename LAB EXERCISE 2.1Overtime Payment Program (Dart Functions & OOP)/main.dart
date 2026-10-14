@@ -3,7 +3,7 @@ import 'myLib.dart';
 void main() {
   // Inputs configured to meet Expected Output ($5070.0 USD)
   Employee emp = Employee(
-    name: 'Mr. Kacang',
+    name: 'John Doe',
     baseSalary: 4500.0,
     overtimeHours: 19.0,
     overtimeRate: 30.0,
