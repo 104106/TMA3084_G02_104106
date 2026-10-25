@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MenuApp());
+  runApp(const MenuApp()); 
 }
 
 class MenuApp extends StatelessWidget {
