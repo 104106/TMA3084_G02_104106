@@ -17,17 +17,17 @@ class PizzaStoreApp extends StatelessWidget {
         'menu': (context) => const MenuScreen(),
         'vegetable': (context) => const DetailScreen(
               title: 'Vegetable Pizza',
-              imagePath: 'assets/images/vegetable.png',
+              imagePath: 'assets/images/vegetable_pizza.jpg',
               description: 'Healthy pizza topped with fresh vegetables.',
             ),
         'cheese': (context) => const DetailScreen(
               title: 'Cheese Pizza',
-              imagePath: 'assets/images/cheese.png',
+              imagePath: 'assets/images/cheese_pizza.jpeg',
               description: 'Classic pizza with a blend of melted cheeses.',
             ),
         'fries': (context) => const DetailScreen(
               title: 'Box of Fries',
-              imagePath: 'assets/images/fries.png',
+              imagePath: 'assets/images/box_of_fries.jpg',
               description: 'Crispy golden fries served hot.',
             ),
       },
